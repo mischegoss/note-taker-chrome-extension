@@ -1,0 +1,36 @@
+body {
+    min-width: 300px;
+    min-height: 300px;
+    background: lightblue;
+}
+
+h1 {
+  text-align: center;
+}
+button {
+    height: 45px;
+    width: 90px;
+    background-color: darkblue;
+    outline: none;
+    margin: 10px;
+    border: none;
+    border-radius: 2px;
+    color: bisque;
+  }
+  
+  button.current {
+    box-shadow: 0 0 0 2px white,
+                0 0 0 4px darkblue;
+  }
+
+  #textarea {
+    background-color: bisque;
+    box-shadow: 0 0 0 2px white,
+    0 0 0 4px black;
+  }
+
+  #textarea, button {
+      display: block;
+      margin: 0 auto;
+
+  }

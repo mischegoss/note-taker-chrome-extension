@@ -1,0 +1,12 @@
+{
+    "name": "Note Taker Example",
+    "description": "A Simple Note Taker extension for student use",
+    "version": "1.0",
+    "manifest_version": 3,
+
+      "permissions": ["storage"],
+      "action": {
+        "default_popup": "popup.html"
+      }
+    
+  }
