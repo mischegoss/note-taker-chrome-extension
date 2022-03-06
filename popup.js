@@ -2,7 +2,6 @@ let clearButton = document.getElementById('clearButton');
 let copyButton = document.getElementById('copyButton');
 let textarea = document.getElementById('textarea');
 
-
 // Note function
 let lastNote = localStorage.getItem('myNote'); 
 document.getElementById('textarea').value = lastNote;
